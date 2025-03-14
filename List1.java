@@ -10,7 +10,12 @@ public class List1 {
         obj.add("Ypgesh");
         obj.add("isha");
         obj.add("Deepak");
+        obj.add("pratham");
 
+        for (String string : obj) {
+            
+            System.out.println(string);
+        }
         obj.add(1, "siraj");
 
         //modify the value
