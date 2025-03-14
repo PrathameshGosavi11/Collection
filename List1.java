@@ -23,6 +23,25 @@ public class List1 {
          String   res=obj.remove(1);
          System.out.println(res);
 
+         int size =obj.size();
+         System.out.println("size of the list :"+size);
+
+         Boolean isPresent= obj.contains("Pratham");
+         System.out.println(isPresent);
+
+         boolean res11= obj.isEmpty();
+         System.out.println("list is empty or not =>"+res11);
+
+         int res111=obj.indexOf("Pratham");
+         System.out.println(res111);
+
+          obj.clear();
+          int result=obj.size();
+          System.out.println(result);
+        
+
+
+
       
     }
 }
