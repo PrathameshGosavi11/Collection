@@ -19,6 +19,10 @@ public class List1 {
         obj.set(1, "h Rana");
 
         System.out.println("player update here :"+obj.get(1));
+
+         String   res=obj.remove(1);
+         System.out.println(res);
+
       
     }
 }
